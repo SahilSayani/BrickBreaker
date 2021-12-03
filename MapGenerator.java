@@ -2,6 +2,10 @@ import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
+abstract class map{
+	public abstract void draw();
+}
+
 public class MapGenerator 
 {
 	public int map[][];
